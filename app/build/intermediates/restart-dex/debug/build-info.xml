@@ -4,7 +4,7 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="4976054828012"
+    timestamp="14853853459278"
     token="-7867415798857490878" >
 
     <task
@@ -20,28 +20,36 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="4143177319758" >
+    <artifact
+        location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="14084697301629" >
         <artifact
             location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="4774066160139"
+        timestamp="14428105778270"
         verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
         <artifact
             location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
+        <artifact
+            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
     <build
-        timestamp="4911300827057"
-        verifier="CLASS_ADDED" >
+        timestamp="14744125601884"
+        verifier="METHOD_ADDED" >
         <artifact
             location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="4976054828012" />
+    <build timestamp="14853853459278" >
+        <artifact
+            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
 
 </instant-run>

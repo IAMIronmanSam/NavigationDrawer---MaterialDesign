@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/menu/nav_menu.xml",
+        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/menu/nav_menu.xml"
+    },
+    {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/menu/menu_main.xml"
     }

@@ -4,11 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.community.desibot.desibotv1.search">
-    <include layout="@layout/app_bar"
-        android:id="@id/action_bar" />
+
+    <include
+        android:id="@id/action_bar"
+        layout="@layout/app_bar" />
+
     <TextView
-        android:layout_below="@id/action_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Search goes here"/>
+        android:layout_below="@id/action_bar"
+        android:text="Search goes here" />
 </RelativeLayout>

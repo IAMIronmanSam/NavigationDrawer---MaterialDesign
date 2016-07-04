@@ -10,7 +10,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/hello_blank_fragment" />
-
-
-
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <item
+            android:id="@+id/nav_item1"
+            android:title="Home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/nav_item2"
+            android:title="Stores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <item
+            android:id="@+id/nav_item3"
+            android:title="Offers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </menu>
 </RelativeLayout>

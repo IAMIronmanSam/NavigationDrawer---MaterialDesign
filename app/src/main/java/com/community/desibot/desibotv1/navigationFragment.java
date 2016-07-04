@@ -26,15 +26,28 @@ public class navigationFragment extends Fragment {
     private boolean mUserLearnedDrawer;
     private boolean mFromSavedInstanceState;
     private View containerView;
+
     public navigationFragment() {
         // Required empty public constructor
+    }
+
+    public static void saveToPreference(Context cxt, String prefName, String prefValue) {
+        SharedPreferences sharePref = cxt.getSharedPreferences(PREF_FILE_NAME, cxt.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharePref.edit();
+        editor.putString(prefName, prefValue);
+        editor.apply();
+    }
+
+    public static String readPreference(Context cxt, String prefName, String defValue) {
+        SharedPreferences sharePref = cxt.getSharedPreferences(PREF_FILE_NAME, cxt.MODE_PRIVATE);
+        return sharePref.getString(prefName, defValue);
     }
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        mUserLearnedDrawer = Boolean.valueOf(readPreference(getActivity(),KEY_USR_LEARNED_DRAWER,"false"));
-        if(savedInstanceState != null){
+        mUserLearnedDrawer = Boolean.valueOf(readPreference(getActivity(), KEY_USR_LEARNED_DRAWER, "false"));
+        if (savedInstanceState != null) {
             mFromSavedInstanceState = true;
         }
     }
@@ -46,16 +59,16 @@ public class navigationFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_navigation, container, false);
     }
 
-    public void setup(int fragID,DrawerLayout dLayout, Toolbar tBar) {
+    public void setup(int fragID, DrawerLayout dLayout, Toolbar tBar) {
         containerView = getActivity().findViewById(fragID);
         mDrawerLayout = dLayout;
-        mDrawerToggle = new ActionBarDrawerToggle(getActivity(),dLayout,tBar,R.string.drawer_open,R.string.drawer_close){
+        mDrawerToggle = new ActionBarDrawerToggle(getActivity(), dLayout, tBar, R.string.drawer_open, R.string.drawer_close) {
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
-                if(!mUserLearnedDrawer){
-                    mUserLearnedDrawer =  true;
-                    saveToPreference(getActivity(),KEY_USR_LEARNED_DRAWER,mUserLearnedDrawer+"");
+                if (!mUserLearnedDrawer) {
+                    mUserLearnedDrawer = true;
+                    saveToPreference(getActivity(), KEY_USR_LEARNED_DRAWER, mUserLearnedDrawer + "");
                 }
                 getActivity().invalidateOptionsMenu();
             }
@@ -66,7 +79,7 @@ public class navigationFragment extends Fragment {
                 getActivity().invalidateOptionsMenu();
             }
         };
-        if(!mUserLearnedDrawer && !mFromSavedInstanceState){
+        if (!mUserLearnedDrawer && !mFromSavedInstanceState) {
             mDrawerLayout.openDrawer(containerView);
         }
         mDrawerLayout.addDrawerListener(mDrawerToggle);
@@ -76,15 +89,5 @@ public class navigationFragment extends Fragment {
                 mDrawerToggle.syncState();
             }
         });
-    }
-    public static void saveToPreference(Context cxt,String prefName,String prefValue){
-        SharedPreferences sharePref = cxt.getSharedPreferences(PREF_FILE_NAME,cxt.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharePref.edit();
-        editor.putString(prefName,prefValue);
-        editor.apply();
-    }
-    public static String readPreference(Context cxt, String prefName, String defValue){
-        SharedPreferences sharePref = cxt.getSharedPreferences(PREF_FILE_NAME,cxt.MODE_PRIVATE);
-        return sharePref.getString(prefName,defValue);
     }
 }
