@@ -1,0 +1,67 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:5:5-15:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:10:9-40
+activity#com.community.desibot.desibotv1.home
+ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:11:9-42
+	android:name
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:11:19-39
+activity#com.community.desibot.desibotv1.search
+ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:name
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:12:19-41
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:13:13-94
+	android:value
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:13:71-92
+	android:name
+		ADDED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml:13:24-70
+uses-sdk
+INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml
+		INJECTED from /home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/AndroidManifest.xml

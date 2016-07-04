@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navigation_fragment" type="id">nav_fragment</item>
+    <item name="navigation_drawer" type="id">nav_Drawer</item>
+</resources>
