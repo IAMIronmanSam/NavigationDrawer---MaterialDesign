@@ -4,52 +4,38 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="14853853459278"
-    token="-7867415798857490878" >
+    timestamp="2101216354528"
+    token="-7867415798857490878"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="310" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="651" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="35" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="14084697301629" >
+    <build timestamp="2014947860300" >
         <artifact
             location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="14428105778270"
-        verifier="R_CLASS_CHANGE" >
+        timestamp="2101216354528"
+        verifier="COMPATIBLE" >
         <artifact
-            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="14744125601884"
-        verifier="METHOD_ADDED" >
-        <artifact
-            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="14853853459278" >
-        <artifact
-            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
+            location="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

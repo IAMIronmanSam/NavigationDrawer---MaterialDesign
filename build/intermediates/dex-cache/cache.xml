@@ -1,2 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="c7ea704f8552a32a2520c36c3d8b11b5c606f9b4">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_64840f7481f6cf4af80461a0c4b6ea1b3b6e920d/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_d06d51b78999c0be03c2aeb35154942753a460ac/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_373ec49ec46d0521899a2019537a0b1f4e1055a3/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_63a0c2ce4d5bc770173cc67e0740b9d90959c27e/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_112efdb7467ad76cb4b0b8815cc6742a53eb9910/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_f79033bd7ab87432a63819735c3c8a48b1ee364b/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_8cfcc8dd97f4118429eb3b7668706df8cb1d66ba/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_ddf13fc10160f1d35015032672eec2f76d04b095/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_15afb8f2d47d521c8b38e97059a2c2e7771c8c53/classes.dex" />
+    </item>
+    <item
+        jar="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="02115404c66878f7954984e11c531b6d729e8d2c">
+        <dex dex="/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ae795cefcf883a6086c9c31c9a30781bcb395261/classes.dex" />
+    </item>
+
+</items>

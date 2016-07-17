@@ -2,7 +2,9 @@ package com.community.desibot.desibotv1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -10,20 +12,21 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 public class home extends AppCompatActivity {
-
     private Toolbar toolbar;
+    private NavigationView mDrawer;
+    private DrawerLayout mDrawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
-
-        toolbar = (Toolbar) findViewById(R.id.action_bar);
+        setContentView(R.layout.activity_homev2);
+        toolbar = (Toolbar) findViewById(R.id.app_bar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        navigationFragment navigationDrawerFragment = (navigationFragment) getSupportFragmentManager().findFragmentById(R.id.navigation_drawer);
-
-        navigationDrawerFragment.setup(R.id.navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout), toolbar);
+        mDrawer = (NavigationView) findViewById(R.id.main_drawer);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.drawer_open, R.string.drawer_close);
+        mDrawerLayout.addDrawerListener(mDrawerToggle);
+        mDrawerToggle.syncState();
     }
 
     @Override
@@ -46,7 +49,8 @@ public class home extends AppCompatActivity {
             return true;
         }
         if (id == R.id.action_search) {
-            startActivity(new Intent(this, search.class));
+            Toast.makeText(this, "Search goes here", Toast.LENGTH_LONG).show();
+            return true;
         }
 
         return super.onOptionsItemSelected(item);

@@ -28,10 +28,6 @@
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/app_bar.xml",
-        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/layout/app_bar.xml"
-    },
-    {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
@@ -94,6 +90,10 @@
     {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/action_bar.xml",
+        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/layout/action_bar.xml"
     },
     {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
@@ -180,16 +180,8 @@
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
-        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/layout/activity_search.xml"
-    },
-    {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/activity_home.xml",
-        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/layout/activity_home.xml"
     },
     {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
@@ -214,10 +206,6 @@
     {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/fragment_navigation.xml",
-        "source": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/src/main/res/layout/fragment_navigation.xml"
     },
     {
         "merged": "/home/iarivu/AndroidStudioProjects/desiBotv1/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
